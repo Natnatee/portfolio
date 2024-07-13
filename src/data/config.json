@@ -1,34 +1,26 @@
 {
-  "job": "Frontend Developer",
-  "name": "John Doe",
-  "desc": "The traveler of this path, a web designer in Turkey.",
-  "aboutDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  "email": "john.doe@example.com",
+  "job": "Junior Software Developer",
+  "name": "Natnatee Rungthongbaisuree",
+  "desc": "Proactive and effective team manager with expertise in the MERN stack.",
+  "aboutDesc": "Adept at creating user-friendly, secure, and efficient web applications. Demonstrated success in engineering roles, project management, and education, showcasing strong problem-solving abilities and effective communication skills. Committed to continuous learning and applying a growth mindset to deliver innovative solutions that meet user needs and drive business success.",
+  "email": "natnatee_mond@hotmail.com",
   "status": "on",
-  "hireMeLink": "https://twitter.com/iamkaanayyildiz",
+  "hireMeLink": "https://www.linkedin.com/in/natnatee-rungthongbaisuree-691b2b310/",
   "projects": [
     {
-      "project-image-url": "https://github.com/kaanayyildiz/benfolio/assets/39806458/9d826c30-0135-4620-8e0f-bc3460848e5e",
-      "project-name": "Benfolio",
-      "project-desc": "React + Tailwind Portfolio"
+      "project-image-url": "https://github.com/Natnatee/Front-end-car-ecommerce-",
+      "project-name": "Roddee - Buy-Sell-Used Car E-commerce Web Application",
+      "project-desc": "A MERN stack project featuring car listings, image uploads, and location marking on Google Maps."
     }
   ],
   "social": [
     {
-      "icon": "FaXTwitter",
-      "link": "https://x.com"
-    },
-    {
-      "icon": "FaInstagram",
-      "link": "https://instagram.com"
-    },
-    {
       "icon": "FaGithub",
-      "link": "https://github.com"
+      "link": "https://github.com/Natnatee"
     },
     {
       "icon": "FaLinkedinIn",
-      "link": "https://linkedin.com"
+      "link": "https://www.linkedin.com/in/natnatee-rungthongbaisuree-691b2b310/"
     }
   ]
 }
