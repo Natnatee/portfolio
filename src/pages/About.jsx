@@ -20,7 +20,7 @@ export default function About() {
           <p className="text-lg text-gray-500 text-center md:text-justify font-normal tracking-tigh">
             {configData.aboutDesc}
           </p>
-          <img className="border rounded-md p-3 grayscale shadow-md" src="src/assets/source.png" alt="" />
+          <img className="border rounded-md p-3 grayscale shadow-md" src="https://wallpapercave.com/wp/wp7664856.png" alt="" />
         </div>
       </div>
       <div className="flex flex-col items-center justify-center">
@@ -31,7 +31,6 @@ export default function About() {
       </div>
       <div className="flex flex-col flex-col-reverse md:flex md:flex-row md:items-center justify-center py-8">
         <div className="flex flex-col gap-y-2">
-
           <div className="flex items-center text-center md:text-justify justify-center md:justify-normal">
             <a href={configData.hireMeLink}><button
               type="button"
@@ -55,6 +54,16 @@ export default function About() {
             </button></a>
             <CopyEmailButton />
           </div>
+          <a href="https://drive.google.com/file/d/1MVoMt_HEvBclCoeCKT5hZZKrl6Bcb13k/view?usp=sharing">
+            <button
+              type="button"
+              className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800"
+            >
+              <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                CV
+              </span>
+            </button>
+          </a>
         </div>
       </div>
     </>

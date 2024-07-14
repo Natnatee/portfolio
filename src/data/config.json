@@ -8,7 +8,7 @@
   "hireMeLink": "https://www.linkedin.com/in/natnatee-rungthongbaisuree-691b2b310/",
   "projects": [
     {
-      "project-image-url": "https://github.com/Natnatee/Front-end-car-ecommerce-",
+      "project-image-url": "https://front-end-car-ecommerce.vercel.app/",
       "project-name": "Roddee - Buy-Sell-Used Car E-commerce Web Application",
       "project-desc": "A MERN stack project featuring car listings, image uploads, and location marking on Google Maps."
     }

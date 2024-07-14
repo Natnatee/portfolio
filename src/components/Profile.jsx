@@ -54,6 +54,16 @@ export default function Profile() {
             </button></a>
             <CopyEmailButton />
           </div>
+          <a href="https://drive.google.com/file/d/1MVoMt_HEvBclCoeCKT5hZZKrl6Bcb13k/view?usp=sharing">
+            <button
+              type="button"
+              className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800"
+            >
+              <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                CV
+              </span>
+            </button>
+          </a>
         </div>
         <div className="rounded-full p-2 flex items-center justify-center mb-7">
           <div className="w-36 h-36 rounded-full bg-gradient-to-b from-gray-100 to-gray-300 border-2 flex items-center justify-center">
