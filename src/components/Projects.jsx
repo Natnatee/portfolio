@@ -1,11 +1,14 @@
 import { useState } from "react";
-import { getConfigData } from "../data/configReader";
 import pro from "../assets/peugeot_508-1.jpg";
 
 export default function Card() {
-	const configData = getConfigData();
 	const projects = [
-		...configData.projects,
+		{
+			"project-name": "Roddee",
+			"project-desc": "Buy and Sell Used Cars - E-commerce Web App",
+			"project-link": "https://roddee-company.vercel.app/",
+			"project-image": pro,
+		},
 		{
 			"project-name": "FishStore",
 			"project-desc":
@@ -33,7 +36,7 @@ export default function Card() {
 	return (
 		<>
 			<div className="px-2">
-				<div className="flex flex-col bg-gray-100 rounded-lg px-5 py-5 ">
+				<div className="flex flex-col bg-gray-100 rounded-lg px-5 py-5">
 					<div className="flex items-center justify-between mb-5">
 						<div className="font-medium text-lg flex items-center gap-x-2">
 							<div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
@@ -75,12 +78,8 @@ export default function Card() {
 									<div className="card-image w-16 h-16 rounded-full overflow-hidden">
 										<img
 											className="w-full h-full object-cover"
-											src={
-												index === projects.length - 1
-													? project["project-image"]
-													: pro
-											}
-											alt=""
+											src={project["project-image"]}
+											alt={project["project-name"]}
 										/>
 									</div>
 								</div>
